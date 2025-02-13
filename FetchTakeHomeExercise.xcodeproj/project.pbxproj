@@ -29,6 +29,23 @@
 		3A04B89A2D5E70200095C589 /* FetchTakeHomeExerciseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FetchTakeHomeExerciseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		3A04B8D12D5E7C3D0095C589 /* Exceptions for "FetchTakeHomeExerciseTests" folder in "FetchTakeHomeExercise" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				ValidJSONResponse.json,
+			);
+			target = 3A04B87F2D5E701F0095C589 /* FetchTakeHomeExercise */;
+		};
+		3A04B8D22D5E7C3D0095C589 /* Exceptions for "FetchTakeHomeExerciseTests" folder in "FetchTakeHomeExerciseTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				ValidJSONResponse.json,
+			);
+			target = 3A04B88F2D5E70200095C589 /* FetchTakeHomeExerciseTests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		3A04B8822D5E701F0095C589 /* FetchTakeHomeExercise */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
@@ -37,12 +54,11 @@
 		};
 		3A04B8932D5E70200095C589 /* FetchTakeHomeExerciseTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				3A04B8D12D5E7C3D0095C589 /* Exceptions for "FetchTakeHomeExerciseTests" folder in "FetchTakeHomeExercise" target */,
+				3A04B8D22D5E7C3D0095C589 /* Exceptions for "FetchTakeHomeExerciseTests" folder in "FetchTakeHomeExerciseTests" target */,
+			);
 			path = FetchTakeHomeExerciseTests;
-			sourceTree = "<group>";
-		};
-		3A04B89D2D5E70200095C589 /* FetchTakeHomeExerciseUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = FetchTakeHomeExerciseUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -77,7 +93,6 @@
 			children = (
 				3A04B8822D5E701F0095C589 /* FetchTakeHomeExercise */,
 				3A04B8932D5E70200095C589 /* FetchTakeHomeExerciseTests */,
-				3A04B89D2D5E70200095C589 /* FetchTakeHomeExerciseUITests */,
 				3A04B8812D5E701F0095C589 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -152,9 +167,6 @@
 			);
 			dependencies = (
 				3A04B89C2D5E70200095C589 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				3A04B89D2D5E70200095C589 /* FetchTakeHomeExerciseUITests */,
 			);
 			name = FetchTakeHomeExerciseUITests;
 			packageProductDependencies = (
