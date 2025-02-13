@@ -38,6 +38,9 @@ struct RecipesListView: View {
                     await viewModel.fetchRecipes()
                 }
             }
+            .refreshable {
+                await viewModel.fetchRecipes()
+            }
         }
     }
 }
